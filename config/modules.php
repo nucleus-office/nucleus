@@ -11,7 +11,7 @@ return [
     |
     */
 
-    'namespace' => 'Nucleus',
+    'namespace' => 'NucleusOffice',
 
     /*
     |--------------------------------------------------------------------------
@@ -67,7 +67,7 @@ return [
         |
         */
 
-        'modules' => base_path('Nucleus'),
+        'modules' => base_path('NucleusOffice'),
         /*
         |--------------------------------------------------------------------------
         | Modules assets path
@@ -77,7 +77,7 @@ return [
         |
         */
 
-        'assets' => public_path('nucleus'),
+        'assets' => public_path('nucleus-office'),
         /*
         |--------------------------------------------------------------------------
         | The migrations path

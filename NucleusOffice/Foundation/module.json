@@ -1,0 +1,16 @@
+{
+    "name": "Foundation",
+    "alias": "foundation",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "NucleusOffice\\Foundation\\Providers\\FoundationServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "Helpers/helpers.php"
+    ],
+    "requires": []
+}

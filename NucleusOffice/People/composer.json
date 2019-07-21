@@ -1,0 +1,31 @@
+{
+    "name": "nucleus-office/people",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nucleus Team",
+            "email": "nucleusofficeorg@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/passport": "^7.3",
+        "dyrynda/laravel-efficient-uuid": "^2.3",
+        "dyrynda/laravel-model-uuid": "^4.1",
+        "laravel/passport": "^7.3"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NucleusOffice\\People\\Providers\\PeopleServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "NucleusOffice\\People\\": ""
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "name": "nucleus-office/acl",
+    "description": "Roles and permissions API implementation based on spatie/laravel-permission",
+    "authors": [
+        {
+            "name": "Nucleus Team",
+            "email": "nucleusofficeorg@gmail.com"
+        }
+    ],
+    "require": {
+        "spatie/laravel-permission": "^2.37"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NucleusOffice\\Acl\\Providers\\AclServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "NucleusOffice\\Acl\\": ""
+        }
+    }
+}

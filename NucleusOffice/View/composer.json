@@ -1,0 +1,25 @@
+{
+    "name": "nucleus-office/view",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nucleus Team",
+            "email": "nucleusofficeorg@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NucleusOffice\\View\\Providers\\ViewServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "NucleusOffice\\View\\": ""
+        }
+    }
+}

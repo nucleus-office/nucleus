@@ -11,6 +11,10 @@
 |
 */
 
-Route::prefix('view')->group(function() {
-    Route::get('/', 'ViewController@index');
+Route::middleware(['auth:web'])->group(function() {
+    Route::get('/', 'ViewController@home');
 });
+
+Auth::routes();
+
+Route::get('/logout', 'Auth\LoginController@logout');
